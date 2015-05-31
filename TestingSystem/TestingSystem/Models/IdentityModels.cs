@@ -31,5 +31,7 @@ namespace TestingSystem.Models
         }
 
         public System.Data.Entity.DbSet<TestingSystem.Models.ThematicField> ThematicFields { get; set; }
+
+        public System.Data.Entity.DbSet<TestingSystem.Models.TestScheme> TestSchemes { get; set; }
     }
 }

@@ -162,6 +162,7 @@
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
     <Compile Include="Controllers\TeacherManagerController.cs" />
+    <Compile Include="Controllers\TestSchemesController.cs" />
     <Compile Include="Controllers\ThematicFieldsController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -173,6 +174,10 @@
     <Compile Include="Migrations\201505310916244_Init.cs" />
     <Compile Include="Migrations\201505310916244_Init.Designer.cs">
       <DependentUpon>201505310916244_Init.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201505311055357_Init1.cs" />
+    <Compile Include="Migrations\201505311055357_Init1.Designer.cs">
+      <DependentUpon>201505311055357_Init1.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
@@ -249,6 +254,11 @@
     <Content Include="Views\ThematicFields\Edit.cshtml" />
     <Content Include="Views\ThematicFields\Index.cshtml" />
     <Content Include="Views\TeacherManager\Index.cshtml" />
+    <Content Include="Views\TestSchemes\Create.cshtml" />
+    <Content Include="Views\TestSchemes\Delete.cshtml" />
+    <Content Include="Views\TestSchemes\Details.cshtml" />
+    <Content Include="Views\TestSchemes\Edit.cshtml" />
+    <Content Include="Views\TestSchemes\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -266,6 +276,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201505310916244_Init.resx">
       <DependentUpon>201505310916244_Init.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201505311055357_Init1.resx">
+      <DependentUpon>201505311055357_Init1.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
