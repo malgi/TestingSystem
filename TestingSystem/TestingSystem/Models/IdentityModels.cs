@@ -33,5 +33,13 @@ namespace TestingSystem.Models
         public System.Data.Entity.DbSet<TestingSystem.Models.ThematicField> ThematicFields { get; set; }
 
         public System.Data.Entity.DbSet<TestingSystem.Models.TestScheme> TestSchemes { get; set; }
+
+        public System.Data.Entity.DbSet<TestingSystem.Models.TestResult> TestResults { get; set; }
+
+        public System.Data.Entity.DbSet<TestingSystem.Models.StudentGroup> StudentGroups { get; set; }
+
+        public System.Data.Entity.DbSet<TestingSystem.Models.Question> Questions { get; set; }
+
+        public System.Data.Entity.DbSet<TestingSystem.Models.Answer> Answers { get; set; }
     }
 }

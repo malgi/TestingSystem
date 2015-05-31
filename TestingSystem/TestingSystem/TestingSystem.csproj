@@ -159,9 +159,13 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\Startup.Auth.cs" />
     <Compile Include="Controllers\AccountController.cs" />
+    <Compile Include="Controllers\AnswersController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
+    <Compile Include="Controllers\QuestionsController.cs" />
+    <Compile Include="Controllers\StudentGroupsController.cs" />
     <Compile Include="Controllers\TeacherManagerController.cs" />
+    <Compile Include="Controllers\TestResultsController.cs" />
     <Compile Include="Controllers\TestSchemesController.cs" />
     <Compile Include="Controllers\ThematicFieldsController.cs" />
     <Compile Include="Global.asax.cs">
@@ -178,6 +182,14 @@
     <Compile Include="Migrations\201505311055357_Init1.cs" />
     <Compile Include="Migrations\201505311055357_Init1.Designer.cs">
       <DependentUpon>201505311055357_Init1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201505311309315_Init2.cs" />
+    <Compile Include="Migrations\201505311309315_Init2.Designer.cs">
+      <DependentUpon>201505311309315_Init2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201505311314587_Init3.cs" />
+    <Compile Include="Migrations\201505311314587_Init3.Designer.cs">
+      <DependentUpon>201505311314587_Init3.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
@@ -259,6 +271,26 @@
     <Content Include="Views\TestSchemes\Details.cshtml" />
     <Content Include="Views\TestSchemes\Edit.cshtml" />
     <Content Include="Views\TestSchemes\Index.cshtml" />
+    <Content Include="Views\TestResults\Create.cshtml" />
+    <Content Include="Views\TestResults\Delete.cshtml" />
+    <Content Include="Views\TestResults\Details.cshtml" />
+    <Content Include="Views\TestResults\Edit.cshtml" />
+    <Content Include="Views\TestResults\Index.cshtml" />
+    <Content Include="Views\StudentGroups\Create.cshtml" />
+    <Content Include="Views\StudentGroups\Delete.cshtml" />
+    <Content Include="Views\StudentGroups\Details.cshtml" />
+    <Content Include="Views\StudentGroups\Edit.cshtml" />
+    <Content Include="Views\StudentGroups\Index.cshtml" />
+    <Content Include="Views\Questions\Create.cshtml" />
+    <Content Include="Views\Questions\Delete.cshtml" />
+    <Content Include="Views\Questions\Details.cshtml" />
+    <Content Include="Views\Questions\Edit.cshtml" />
+    <Content Include="Views\Questions\Index.cshtml" />
+    <Content Include="Views\Answers\Create.cshtml" />
+    <Content Include="Views\Answers\Delete.cshtml" />
+    <Content Include="Views\Answers\Details.cshtml" />
+    <Content Include="Views\Answers\Edit.cshtml" />
+    <Content Include="Views\Answers\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -279,6 +311,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201505311055357_Init1.resx">
       <DependentUpon>201505311055357_Init1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201505311309315_Init2.resx">
+      <DependentUpon>201505311309315_Init2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201505311314587_Init3.resx">
+      <DependentUpon>201505311314587_Init3.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

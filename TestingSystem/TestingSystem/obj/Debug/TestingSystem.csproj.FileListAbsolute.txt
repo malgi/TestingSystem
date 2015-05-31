@@ -57,3 +57,5 @@ C:\Users\Markéta\Documents\GitHub\TestingSystem\TestingSystem\TestingSystem\obj
 C:\Users\Markéta\Documents\GitHub\TestingSystem\TestingSystem\TestingSystem\obj\Debug\TestingSystem.csproj.GenerateResource.Cache
 C:\Users\Markéta\Documents\GitHub\TestingSystem\TestingSystem\TestingSystem\obj\Debug\TestingSystem.Migrations.Init.resources
 C:\Users\Markéta\Documents\GitHub\TestingSystem\TestingSystem\TestingSystem\obj\Debug\TestingSystem.Migrations.Init1.resources
+C:\Users\Markéta\Documents\GitHub\TestingSystem\TestingSystem\TestingSystem\obj\Debug\TestingSystem.Migrations.Init2.resources
+C:\Users\Markéta\Documents\GitHub\TestingSystem\TestingSystem\TestingSystem\obj\Debug\TestingSystem.Migrations.Init3.resources
